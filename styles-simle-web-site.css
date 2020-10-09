@@ -1,0 +1,39 @@
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+header {
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+main {
+    text-align: center;
+}
+article section:nth-of-type(odd){
+    text-align: left;
+}
+section {
+    margin-top: 20px;
+}
+section img {
+    margin-right: 5px;
+    border: 3.5px dashed black;
+}
+section span {
+    font-style: italic;
+}
+section span:last-child {
+    font-style: italic;
+    color: blue;
+}
+article section:last-child span{
+    font-style: italic;
+    color: blue;
+}
+footer p {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
