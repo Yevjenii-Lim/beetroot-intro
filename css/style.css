@@ -1,0 +1,19 @@
+header img{
+    /* width: 100%; */
+    /* border: 1px solid black; */
+}
+header {
+    background-color: black;
+}
+header nav {
+    display: flex;
+}
+section p{
+    color: white;
+}
+section {
+    background-color: white;
+}
+header img {
+    display: none
+}

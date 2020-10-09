@@ -1,0 +1,74 @@
+body {
+    background-color: red;
+}
+header img{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+header {
+    background-color: black;
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    /* height: 400px; */
+    margin-top: 30px;
+}
+section p{
+    color: white;
+}
+nav section {
+    text-align: center;
+    cursor: pointer;
+}
+section p {
+    display: inline-block;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    width: 20%;
+    /* margin-left: 10px; */
+    
+}
+.links a{
+    color: orange;
+}
+.links a + a {
+    margin-top: 20px;
+}
+main {
+    display: flex;
+}
+main article {
+    /* background-color: red; */
+    color: white;
+    width: 65%;
+}
+article section {
+    margin-top: 20px;
+}
+.side-bar {
+    width: 15%;
+    text-align: center;
+    background-color: lightgray;
+}
+.side-bar h3 {
+    margin: 0;
+    background-color: gray;
+}
+.side-bar section {
+    text-align: left;
+}
+.side-bar hr {
+    width: 60%;
+}
+footer p {
+    background-color: orange;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
