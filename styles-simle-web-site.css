@@ -16,7 +16,7 @@ article section:nth-of-type(odd){
 section {
     margin-top: 20px;
 }
-section img {
+section img  {
     margin-right: 5px;
     border: 3.5px dashed black;
 }

@@ -1,0 +1,106 @@
+body {
+    background-image: url('bg7.jpg');
+    background-repeat: no-repeat;
+}
+main {
+    text-align: center;
+    margin-top: 50px;
+}
+section {
+    background-color: white;
+    width: 250px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+}
+section + section {
+
+}
+p {
+    margin: 0;
+}
+section > p {
+    background-color: rgb(122, 36, 122);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+.price {
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 0;
+    background-color: rgb(173, 95, 173);
+}
+.number {
+    font-size: 40px;
+    font-weight: bold;
+}
+.number span {
+    vertical-align: top;
+    line-height: 35px;
+    font-size: 20px;
+}
+.list {
+    text-align: center;
+
+}
+ul {
+    display: inline-block;
+    /* width: 85%; */
+    text-align: left;
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    width: 100%;
+    margin: 0;
+}
+ul li + li {
+    /* margin-top: 10px; */
+}
+li {
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    /* border: 1px solid black; */
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+}
+li + li {
+    border-top: 1px solid grey;
+}
+li img {
+    margin-right: 10px;
+    width: 20px;
+    /* border: 1px solid black */
+    
+}
+img {
+    /* margin-top: 10px; */
+}
+button {
+    margin-top: 20px;
+    padding: 10px 25px 10px 25px;
+    background-color: rgb(33, 151, 33);
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+
+}
+section:nth-child(2) > p{
+    background-color: #206320;
+}
+section:nth-child(2) > .price {
+    background-color: #F59C00;
+}
+section:last-child > p{
+    background-color: rgb(136, 33, 33);
+}
+section:last-child .price {
+    background-color: rgb(255, 56, 56);
+}

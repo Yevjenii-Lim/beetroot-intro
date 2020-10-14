@@ -1,0 +1,106 @@
+body {
+    --border-color: #78b8d8;
+    --bg-header-color: #c5deeb;
+    --bg-logo-color: #ecf1bf;
+    --bg-main-color:#9bd87f;
+    --bg-footer-color: #827717;
+    --bg-text-color: rgba(187, 231, 183, 0.692);
+    --bg-content-color:rgb(115, 228, 87);
+    --bg-section-color: rgb(124, 172, 48);
+
+}
+header {
+    background-color: var(--bg-header-color);
+    border: 1px solid var(--border-color);
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    min-height: ;
+    padding: 10px;
+}
+header .logo{
+    display: inline-block;
+    background-color: var(--bg-logo-color);
+    border: 1px solid var(--border-color);
+    padding: 15px;
+    width: 100px;
+}
+h1, h3 {
+    background-color: var(--bg-text-color);
+    border: 1px solid var(--border-color);
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+header nav {
+    display: block;
+    float: right;
+    border: 1px solid var(--border-color);
+}
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li{
+    display: inline-block;
+    border: 1px solid var(--border-color);
+    padding: 15px;
+
+}
+header nav ul li + li {
+    margin-left: 15px;
+}
+main {
+    background-color: var(--bg-main-color);
+    border: 1px solid var(--border-color);
+    margin-bottom: 15px;
+    padding: 15px;
+}
+article {
+    background-color: var(--bg-main-color);
+    border: 1px solid var(--border-color);
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 65%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+section {
+    background-color: var(--bg-section-color);
+    border: 1px solid var(--border-color);
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.content {
+    background-color: var(--bg-content-color);
+    border: 1px solid var(--border-color);
+    margin-bottom: 15px;
+    padding: 15px;
+    min-height: 50px;
+    box-sizing: border-box;
+}
+aside {
+    background-color: var(--bg-main-color);
+    border: 1px solid var(--border-color);
+    margin-bottom: 15px;
+    padding: 15px;
+    min-height: 50px;
+    width: 35%;
+    display: block;
+    box-sizing: border-box;
+    float: right;
+}
+.clear {
+    clear: both;
+}
+footer {
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-footer-color);
+    padding: 15px;
+}
+address {
+    background-color: var(--bg-section-color);
+    border: 1px solid var(--border-color);
+    margin-bottom: 15px;
+    padding: 15px;
+}
