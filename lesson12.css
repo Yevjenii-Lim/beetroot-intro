@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    box-sizing: border-box;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input , textarea {
+    box-sizing: border-box;
+    border: none;
+}
+.main__walter {
+    display: flex;
+    padding: 2em;
+    background-color: #F1F0F0;
+    box-sizing: border-box;
+    width: 100%;
+    
+} 
+.main__walter img {
+    width: 100px;
+}
+.walter__name {
+    margin-left: 30px;
+}
+.main__info textarea {
+    padding: 1em 1.5em;
+    width: 100%;
+    font-size: 1em;
+    border-bottom: 1.5px dotted grey;
+    resize: none;
+}
+
+.main__name {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.main__info {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.info__addres input{
+    width: 100%;
+    height: 50px;
+    padding: 1em 1.5em;
+    font-size: 1em;
+}
+.main__footer {
+    display: flex;
+    align-items: center;
+    width: 93.5%;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #F1F0F0;
+}
+.main__footer button {
+    padding: 1em;
+    background-color: #B2724D;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+
+}
+.name__name--input, .name__last--name--input {
+    width: 100%;
+}
+.name__name--input input, .name__last--name--input input {
+    width: 100%;
+    height: 50px;
+    padding: 1em 1.5em;
+    font-size: 1em;
+}
+.name__name--input input {
+    border-right: 1px solid grey;
+}
+.name__name--input input, .name__last--name--input input, .main__info textarea, .info__addres input {
+    border-top: 1px solid gray;
+    outline: none;
+}
+.name__name--input input:focus, .name__last--name--input input:focus, .main__info textarea:focus, .info__addres input:focus {
+    background-color: rgb(230, 230, 252);
+}
+[type="checkbox"] {
+    display: none;
+}
+[type="checkbox"] ~ label:before {
+    content: '';
+    display: inline;
+    flex-direction: row;
+    border: 1px solid;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    margin-right: 0.5em;
+    transition: all 0.3s ease;
+    box-shadow: inset 0px 0px 5px 5px rgba(0,77,64 ,1);
+}
